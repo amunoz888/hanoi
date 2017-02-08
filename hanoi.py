@@ -10,7 +10,7 @@ __license__ = "MIT"
 __version__ = "1.0"
 __email__ = "rrschmidt@ucam.edu"
 
-DISKS = 5
+DISKS = 6
 bars = ( [], [], [] )
 moves = 0
 
@@ -19,7 +19,7 @@ moves = 0
     Este sencillo algoritmo recurrente resuelve el problema de las torres de Hanoi.
 
 """
-
+#Comentario
 def show():
     for i in range(len(bars)):
         print(bars[i])
